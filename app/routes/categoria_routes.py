@@ -1,6 +1,8 @@
 from flask import Blueprint, request, jsonify
-from app import db
+from app.extensions import db
 from app.models.categoria_models import Categoria  
+from app.models.productos_models import Producto
+
 
 
 
@@ -27,4 +29,5 @@ def crear_categoria():
 def listar_categorias():
     categorias = Categoria.query.all()
     resultado = [{"id": cat.id, "nombre": cat.nombre, "descripcion": cat.descripcion} for cat in categorias]
+    
     return jsonify(resultado)
