@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify
 from app import db
-from categoria_models import Categoria  
-from productos_models import Producto
+from app.models.categoria_models import Categoria  
+
 
 
 categoria_bp = Blueprint('categoria', __name__, url_prefix='/categorias')
