@@ -1,10 +1,7 @@
 from flask import Blueprint, request, jsonify
-from app.extensions import db
-from app.models.categoria_models import Categoria  
-from app.models.productos_models import Producto
-
-
-
+from app.db import db
+from app.models.categoria_models import Categoria  # Modelo Categoria
+from app.models.productos_models import Producto  # Modelo Producto
 
 categoria_bp = Blueprint('categoria', __name__, url_prefix='/categorias')
 
@@ -21,13 +18,27 @@ def crear_categoria():
     nueva_categoria = Categoria(nombre=nombre, descripcion=descripcion)
     db.session.add(nueva_categoria)
     db.session.commit()
-    
+
     return jsonify({"mensaje": "Categoría creada exitosamente"}), 201
 
-# Endpoint para listar todas las categorías
+# Endpoint para listar categorias
 @categoria_bp.route('/', methods=['GET'])
 def listar_categorias():
     categorias = Categoria.query.all()
-    resultado = [{"id": cat.id, "nombre": cat.nombre, "descripcion": cat.descripcion} for cat in categorias]
-    
+    resultado = [categoria.serialize() for categoria in categorias]
     return jsonify(resultado)
+
+
+# Endpoint para obtener una categoría específica
+@categoria_bp.route('/<int:id>', methods=['GET'])
+def obtener_categoria(id):
+    categoria = Categoria.query.get(id)
+    if not categoria:
+        return jsonify({"error": "Categoría no encontrada"}), 404
+
+    return jsonify({
+        "id": categoria.id,
+        "nombre": categoria.nombre,
+        "descripcion": categoria.descripcion
+    })
+

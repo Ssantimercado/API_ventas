@@ -1,13 +1,10 @@
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+from app.db import db
 from dotenv import load_dotenv
 import os
 
 # Cargar las variables de entorno
 load_dotenv()
-
-# Inicializar la extensión de la base de datos
-db = SQLAlchemy()
 
 def create_app():
     # Crear la instancia de la aplicación Flask
@@ -19,6 +16,7 @@ def create_app():
 
     # Inicializar la base de datos con la aplicación
     db.init_app(app)
+    
 
     # Registrar las rutas dentro de la función create_app
     from app.routes.productos_routes import producto_bp
