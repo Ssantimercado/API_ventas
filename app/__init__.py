@@ -16,13 +16,16 @@ def create_app():
 
     # Inicializar la base de datos con la aplicación
     db.init_app(app)
-    
 
-    # Registrar las rutas dentro de la función create_app
+    # Registrar los blueprints
     from app.routes.productos_routes import producto_bp
     from app.routes.categoria_routes import categoria_bp
-    
+    from app.routes.ventas_routes import ventas_bp
+    from app.routes.detalle_ventas_routes import detalle_ventas_bp  # Importamos el blueprint de detalle de ventas
+
     app.register_blueprint(producto_bp)
     app.register_blueprint(categoria_bp)
+    app.register_blueprint(ventas_bp)
+    app.register_blueprint(detalle_ventas_bp)  # Registramos el blueprint de detalle de ventas
 
     return app
