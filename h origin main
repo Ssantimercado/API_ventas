@@ -1,0 +1,110 @@
+[33mcommit a352b3a16ad8d15c88f4ba2c238b32fa91e50e97[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: koscka <koscka@gmail.com>
+Date:   Sat May 10 17:06:33 2025 -0300
+
+    Actualizando de nuevo
+
+[33mcommit e907fcfe0d5173e0f20c56bd674aa145293f2339[m
+Author: koscka <koscka@gmail.com>
+Date:   Sat May 10 16:57:36 2025 -0300
+
+    subiendo mi parte
+
+[33mcommit 9ea3d28efadd1ad38c4c71d7a3d21132c8e96aec[m
+Author: koscka <koscka@gmail.com>
+Date:   Sat May 10 11:03:40 2025 -0300
+
+    subiendo mi parte
+
+[33mcommit 638e65ac709c34ca968998d1c13fd4d3e5338f4f[m[33m ([m[1;31morigin/santiago[m[33m)[m
+Author: Ssantimercado <santimercado2022@gmail.com>
+Date:   Fri May 9 00:10:11 2025 -0300
+
+    Subiendo mi parte
+
+[33mcommit d37e8e037ed82668be76322fe39224ec91fa0ec8[m
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Wed May 7 22:35:56 2025 -0300
+
+    arreglos API_ventas
+
+[33mcommit 5ba95158296d9d56197f2c3855d743550be4343c[m
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Sun May 4 22:08:30 2025 -0300
+
+    Varias actualizaciones
+
+[33mcommit 10318338f7c893539e24c9501c415d85b9b0d301[m
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Sun May 4 21:55:05 2025 -0300
+
+     .gitignore
+
+[33mcommit 697cedb77d80a15647447f570d6a80210776bea8[m
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Fri May 2 19:58:11 2025 -0300
+
+    correccion de errores
+
+[33mcommit 8177336523b65fff6fb838a3eae0f7319396284a[m
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Fri May 2 19:57:22 2025 -0300
+
+    extensions.py
+
+[33mcommit 856335041f9b08daa551dc38f8c9d35304bde964[m
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Fri May 2 19:28:33 2025 -0300
+
+    Añadir .gitignore para ignorar archivos
+
+[33mcommit e034b1121ed668aac1eef771f8c22edba49c9cc9[m
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Fri May 2 19:24:29 2025 -0300
+
+    Actualización de rutas y corrección en archivo run.py
+
+[33mcommit f1ce6f2575ed5670892782260c1890d643d99ac3[m
+Merge: d0d21d9 c952435
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Fri May 2 19:19:41 2025 -0300
+
+    Resolviendo conflicto en app/__init__.py
+
+[33mcommit c9524358b2c15d74e22e435804d8b3bb0061d1c5[m
+Merge: ee87a2f 5a9fb02
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Fri May 2 18:23:44 2025 -0300
+
+    Merge branch 'main' of https://github.com/Ssantimercado/API_ventas
+
+[33mcommit ee87a2fcb43bd22f79708c92a4c45bfc5d007d85[m
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Fri May 2 18:22:36 2025 -0300
+
+    app
+
+[33mcommit d0d21d95523aaf3c5d9a6c7b56954d81cc23dcd6[m
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Fri May 2 18:20:27 2025 -0300
+
+    Avances
+
+[33mcommit 5a9fb0271332a26cfcbc201a878d3fcd8a7fea14[m
+Merge: 26db5e3 91acc0f
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Fri May 2 16:35:47 2025 -0300
+
+    Merge branch 'main' of https://github.com/Ssantimercado/API_ventas
+
+[33mcommit 26db5e39b0746bca420ef9183fb54e92a36a7ebd[m
+Author: pabloomercadoo <mercadopablo2004@gmail.com>
+Date:   Fri May 2 15:19:53 2025 -0300
+
+    Primer commit: Estructura
+
+[33mcommit 91acc0f00bec0141137b9579f7a75a7081e2d3ac[m
+Author: Santiago Mercado <126005458+Ssantimercado@users.noreply.github.com>
+Date:   Fri May 2 14:41:53 2025 -0300
+
+    Initial commit
